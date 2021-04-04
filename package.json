@@ -1,12 +1,14 @@
 {
   "name": "node-framework",
-  "version": "0.0.0",
+  "description": "Node Framework",
+  "version": "0.0.1",
   "private": true,
   "scripts": {
-    "start": "node ./bin/www"
+    "start": "node app.js"
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
+    "cowsay": "^1.4.0",
     "debug": "~2.6.9",
     "ejs": "~2.6.1",
     "express": "~4.16.1",
